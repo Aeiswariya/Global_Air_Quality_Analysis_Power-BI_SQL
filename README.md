@@ -119,7 +119,7 @@ This dashboard helps:
 
 ---
 ## 📷 Dashboard Preview
-![Dashboard Screenshot](Dashboard Screenshot.png)
+![Dashboard Screenshot](Dashboard.png)
 
 ---
 
