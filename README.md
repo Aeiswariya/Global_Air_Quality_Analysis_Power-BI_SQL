@@ -1,4 +1,4 @@
-# 🌍 AQI Analysis (SQL & Power BI)
+# 🌍 AQI Analysis  | SQL & Power BI Project
 
 ## 📌 Project Overview
 This project analyzes **Air Quality Index (AQI)** data across major global cities using **Power BI And SQL**. The dashboard helps monitor pollution levels, identify high-risk cities, understand air quality trends, and support environmental decision-making.
@@ -22,15 +22,37 @@ Air pollution poses serious health risks and environmental challenges. Governmen
 ---
 
 ## 🧰 Tools & Technologies
-- **Power BI**
-- **SQL**
-- **DAX**
+- **Power BI**- Dashboard visualization and insights  
+- **MYSQL**- Data cleaning, transformation
+- **DAX**- Calculate KPIs
 - **Excel Dataset**
-- **Data Cleaning & Modeling**
-
 ---
 
-## 📊 KPIs insights
+## 📁 Dataset Description
+The dataset includes:
+- Date
+- City
+- C0
+- NO2
+- SO2
+- O3
+- AQI
+- PM2.5
+- PM10
+- 
+---
+
+## 🔄 Project Workflow
+1. Collected and understood raw city AQI data
+2. Join different city tables into a single table in SQL
+3. Cleaned and transformed data using SQL  
+4. Created New column (Country, AQI Category) in Power BI  
+4. Built Slicers for City and Date 
+5. Built KPIs using DAX  
+6. Designed interactive dashboard in Power BI  
+
+
+## 📊 Dashboard KPIs & it's insights
 
 - 📈 **Average AQI:** 41.24 — Indicates overall moderate air quality.
 - 🔺 **Maximum AQI:** 152.25 — Highlights peak pollution levels.
@@ -92,21 +114,21 @@ Air pollution poses serious health risks and environmental challenges. Governmen
 This dashboard helps:
 - Environmental agencies track pollution levels effectively.
 - Governments plan pollution control strategies.
-- Health departments issue public safety advisories.
+- Health departments issue public safety guiding program.
 - Researchers study pollution trends and pollutant impact.
 
 ---
-
-## 📁 Dataset Description
-The dataset includes:
-- Date
-- City
-- C0
-- NO2
-- SO2
-- O3
-- AQI
-- PM2.5
-- PM10
+## 📷 Dashboard Preview
+![Dashboard Screenshot](Dashboard.png)
 
 ---
+
+## 👤 Author
+**Aeiswariya Panigrahi**  
+Aspiring Data Analyst | SQL | Python | Power BI  | Excel
+📧 Email: aeiswariyapanigrahi@gmail.com 
+🔗 LinkedIn: https://www.linkedin.com/in/sushree-aeiswariya-panigrahi-7b8ba022b/  
+
+---
+
+## ⭐ If you found this project useful, please star the repository!
